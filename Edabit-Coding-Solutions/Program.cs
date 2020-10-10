@@ -6,7 +6,8 @@ namespace Edabit_Coding_Solutions
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var solution1 = new Solution1();//Instantiate My class for Solution1
+            solution1.RunSolution1();
         }
     }
 }
