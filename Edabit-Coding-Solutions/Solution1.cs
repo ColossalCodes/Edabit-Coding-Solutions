@@ -1,5 +1,5 @@
-﻿using System;
-using System.Globalization;
+﻿	using System;
+	using System.Globalization;
 
 public class Solution1
 {
