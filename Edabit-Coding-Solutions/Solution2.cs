@@ -6,5 +6,6 @@ namespace Edabit_Coding_Solutions
 {
     class Solution2
     {
+
     }
 }
