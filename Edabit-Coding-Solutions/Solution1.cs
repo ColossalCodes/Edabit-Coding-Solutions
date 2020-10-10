@@ -1,7 +1,6 @@
 ﻿	using System;
 	using System.Globalization;
-
-public class Solution1
+ public class Solution1
 {
 	public void RunSolution1()
 	{
@@ -11,7 +10,9 @@ public class Solution1
 		Console.Write("input:");
 		string output = ReverseCase(Console.ReadLine());
 		Console.Write("\nOutput:");
+		Console.ForegroundColor = ConsoleColor.Green;
 		Console.WriteLine(output);
+		Console.ForegroundColor = ConsoleColor.White;
 		Console.ReadLine();
 	}
 
