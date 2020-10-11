@@ -12,7 +12,7 @@ namespace Edabit_Coding_Solutions
         public void RunSolution3()
         {
             string output = ReverseAndNot(123);
-            Console.WriteLine("The Input was 123 So Answer should be 123321!\n\n" + output);
+            Console.WriteLine("The Input was 123 So Answer should be 321123!\n\n" + output);
             Console.ReadLine();
         }
         public static string ReverseAndNot(int i)
