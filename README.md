@@ -20,3 +20,19 @@ A repo for challenge solutions from edabit.com
 	СalculateExponent(10, 10) ➞ 10000000000
 
 	СalculateExponent(3, 3) ➞ 27
+
+#Solution 3
+	Write a function that takes an integer i and returns a string with the integer backwards followed by the original integer.
+
+	To illustrate:
+
+	123
+
+	We reverse 123 to get 321 and then add 123 to the end, resulting in 321123.
+	Examples
+
+	ReverseAndNot(123) ➞ "321123"
+
+	ReverseAndNot(152) ➞ "251152"
+
+	ReverseAndNot(123456789) ➞ "987654321123456789"
