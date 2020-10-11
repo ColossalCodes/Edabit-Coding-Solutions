@@ -12,7 +12,7 @@ namespace Edabit_Coding_Solutions
             do
             {
                 Console.Write("Please choose a soloution you would like to run\n\nCheck the project readme file for details on each solution!" +
-                "\nSolution1 = 1\nSolution2 = 2\n\nInput:");
+                "\nSolution1 = 1\nSolution2 = 2\n\nSolution3/noInput!\n\nInput:");
 
                 string input = Console.ReadLine();
 
@@ -30,6 +30,12 @@ namespace Edabit_Coding_Solutions
                     pass = true;
                     var solution2 = new Solution2();//Instantiate My class for Solution2
                     solution2.RunSolution2();//Calls a Method from the Solution2 class
+                }
+                else if (input == "3")
+                {
+                    pass = true;
+                    var solution3 = new Solution3();//Instantiate My class for Solution3
+                    solution3.RunSolution3();//Calls a Method from the Solution3 class
                 }
                 else
                 {
